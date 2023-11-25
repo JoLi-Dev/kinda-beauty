@@ -1,3 +1,62 @@
+@font-face {
+  font-family: 'Malibu';
+  src: url(Fonts/Malibu.otf) format('open type font');
+}
+
 body {
-    background: bisque;
+    background: white;
   }
+
+ #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+ }
+ 
+ .nav-item {
+     list-style: none;
+     margin-right: 2rem;
+     font-size: 0.85em;
+     font-family: 'Josefin Sans', sans-serif;
+ }
+ 
+ .nav-item a {
+     text-decoration: none;
+     color: #99a799;
+ }
+
+ .banner {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  
+ }
+
+ #bannerImage {
+  width: 50%;
+ }
+
+ #bannerText {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #99a799;
+ }
+
+ #footerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ #footerCopy {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #99a799;
+  text-align: center;
+ }
