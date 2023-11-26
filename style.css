@@ -37,15 +37,45 @@ body {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  
+  column-gap: 4em;
+  margin-top: 2em;
  }
 
  #bannerImage {
   width: 50%;
+  border-radius: 1em;
  }
 
  #bannerText {
   font-family: 'Josefin Sans', sans-serif;
+  color: #99a799;
+ }
+
+ .discover {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: larger;
+  color: #99a799;
+  text-align: center;
+  margin-top: 10em;
+  margin-bottom: 10em;
+ }
+
+ #button {
+  background-color: #99a799;
+  font-family: 'Josefin Sans', sans-serif;
+  border: none;
+  border-radius: 4px;
+  color: #F2DDC1;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 2em;
+ }
+
+ #button:hover {
+  background-color: #E2C2B9;
   color: #99a799;
  }
 
