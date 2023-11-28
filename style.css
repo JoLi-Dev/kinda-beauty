@@ -36,19 +36,20 @@ body {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   column-gap: 4em;
   margin-top: 2em;
+  background-color: #E2C2B9;
  }
 
  #bannerImage {
   width: 50%;
-  border-radius: 1em;
  }
 
  #bannerText {
   font-family: 'Josefin Sans', sans-serif;
   color: #99a799;
+  margin-left: 3em;
  }
 
  .discover {
